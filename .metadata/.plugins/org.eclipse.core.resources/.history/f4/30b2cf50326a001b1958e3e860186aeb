@@ -1,0 +1,30 @@
+package org.stepdefinition;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LoginPage {
+	
+
+@Given("User has to be in Login Page")
+public void user_has_to_be_in_Login_Page() {
+	WebDriverManager.chromedriver().setup();
+	WebDriver d = new ChromeDriver();
+}
+
+@When("The user has to enter the credentials {string} and {string}")
+public void the_user_has_to_enter_the_credentials_and(String string, String string2) {
+}
+
+@When("The user has to click login button")
+public void the_user_has_to_click_login_button() {
+}
+
+@Then("The user has to be in home page")
+public void the_user_has_to_be_in_home_page() {
+}
+
+
+}

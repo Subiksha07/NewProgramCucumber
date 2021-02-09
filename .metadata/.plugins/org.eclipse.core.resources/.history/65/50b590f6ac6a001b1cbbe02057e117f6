@@ -1,0 +1,8 @@
+package org.multi;
+
+public class NewThread {
+	
+	MultiThreading obj = new MultiThreading();
+	
+
+}

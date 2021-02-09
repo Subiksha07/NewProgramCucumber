@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Cucumber" tests="4" started="4" failures="0" errors="4" ignored="0">
+  <testsuite name="org.runner.Runner" time="0.042">
+    <testsuite name="Feature: To validate the Login Page for the website saucedemo" time="0.042">
+      <testcase name="Validate with given credentials" classname="To validate the Login Page for the website saucedemo" time="0.038">
+        <error>java.lang.NullPointerException&#13;
+	at org.stepdefinition.LoginPage.the_user_has_to_enter_the_credentials_and(LoginPage.java:23)&#13;
+	at ✽.The user has to enter the credentials "standard_user" and "secret_sauce"(file:src/test/resources/Feature/Login.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate with given credentials" classname="To validate the Login Page for the website saucedemo" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at org.stepdefinition.LoginPage.the_user_has_to_enter_the_credentials_and(LoginPage.java:23)&#13;
+	at ✽.The user has to enter the credentials "problem_user" and "secret_sauce"(file:src/test/resources/Feature/Login.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate with given credentials" classname="To validate the Login Page for the website saucedemo" time="0.0">
+        <error>java.lang.NullPointerException&#13;
+	at org.stepdefinition.LoginPage.the_user_has_to_enter_the_credentials_and(LoginPage.java:23)&#13;
+	at ✽.The user has to enter the credentials "performance_glitch_user" and "secret_sauce"(file:src/test/resources/Feature/Login.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="validate the incorrect credentials" classname="To validate the Login Page for the website saucedemo" time="0.001">
+        <error>java.lang.NullPointerException&#13;
+	at org.stepdefinition.LoginPage.the_user_has_to_enter_username_and_password(LoginPage.java:41)&#13;
+	at ✽.The user has to enter username "locked_out_user" and password "secret_sauce"(file:src/test/resources/Feature/Login.feature:17)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
